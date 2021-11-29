@@ -118,6 +118,11 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1000px) {
+  .nomes {
+    margin: 10%;
+  }
+}
 
 .lista-nomes li {
   display: flex;
