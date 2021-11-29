@@ -19,6 +19,11 @@ body {
   border-right: 1px solid #87CEEB;
   height: 100%;
 }
+@media (max-width: 425px) {
+  body {
+    margin: 0;
+  }
+}
 
 .header {
   max-width: 1170px;
