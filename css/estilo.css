@@ -163,6 +163,8 @@ h2 {
   align-items: center;
   justify-content: center;
   margin: 1%;
+  margin-bottom: 0;
+  margin-right: 0;
   width: 25%;
   height: 15rem;
 }
