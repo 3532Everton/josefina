@@ -18,6 +18,8 @@ body
     margin-right: 15%
     border-left: 1px solid variables.$primary-color
     border-right: 1px solid variables.$primary-color
+    @include mixins.mobile
+        margin: 0
 
 ul 
     margin-left: 20px
@@ -41,6 +43,8 @@ a
         font-size: 3rem
         text-align: center
         font-style: italic
+        @include mixins.mobile
+            font-size: 2rem
 
         &:hover
             text-decoration: underline
@@ -55,6 +59,8 @@ a
     font-size: 2.5rem
     border-bottom: 2px solid variables.$text-color
     border-radius: 0 0 30rem 0
+    @include mixins.mobile
+        font-size:1.6rem
 
 p
     margin: 1rem
@@ -70,6 +76,9 @@ main
         object-fit: cover
         height: 100%
         width: 20%
+        @include mixins.mobile
+            width: 50%
+            height: 50%
 
 h2
     font-size: 25px
@@ -78,10 +87,11 @@ h2
     
 .lista-nomes
     display: flex
-    
     li
         @include mixins.flex-center
         margin: 20px
+        @include mixins.mobile
+            margin: 10px
 
 .galeria-foto
     height: auto

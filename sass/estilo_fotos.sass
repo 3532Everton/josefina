@@ -19,6 +19,8 @@ body
     border-left: 1px solid variables.$primary-color
     border-right: 1px solid variables.$primary-color
     height: 100%
+    @include mixins.mobile
+        margin: 0
 
 .header
     @include mixins.container
@@ -30,7 +32,6 @@ body
     border-bottom: 3px solid variables.$primary-color
     margin-bottom: 2rem
 
-    
     &-title
         font-family: 'Comforter Brush'
         font-size: 3rem
