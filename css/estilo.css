@@ -119,11 +119,6 @@ h2 {
   justify-content: center;
 }
 
-@media (max-width: 1000px) {
-  .lista-nomes {
-    margin: 10%;
-  }
-}
 .lista-nomes li {
   display: flex;
   align-items: center;
@@ -165,6 +160,12 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 30px;
+}
+@media (max-width: 1000px) {
+  .galeria-foto-bloco a {
+    padding: 0.3rem 2rem;
+    font-size: 50%;
+  }
 }
 .galeria-foto-bloco a:hover {
   background-color: #fff;
