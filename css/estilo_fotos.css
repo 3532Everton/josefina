@@ -19,7 +19,7 @@ body {
   border-right: 1px solid #87CEEB;
   height: 100%;
 }
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   body {
     margin: 0;
   }
@@ -45,7 +45,7 @@ body {
   text-align: center;
   font-style: italic;
 }
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .header-title {
     font-size: 2rem;
   }
