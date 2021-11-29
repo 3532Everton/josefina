@@ -1,0 +1,113 @@
+* {
+  font-family: "Comforter Brush";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #87CEEB;
+  background-image: linear-gradient(to bottom, whitesmoke 1%, #87CEEB 100%);
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-left: 1px solid #87CEEB;
+  border-right: 1px solid #87CEEB;
+  height: 100%;
+}
+@media (max-width: 1000px) {
+  body {
+    margin: 0;
+  }
+}
+
+.header {
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, whitesmoke 1%, #87CEEB 100%);
+  display: flex;
+  height: 10rem;
+  border-radius: 0 0 30% 30%;
+  border-bottom: 3px solid #87CEEB;
+  margin-bottom: 2rem;
+}
+.header-title {
+  font-family: "Comforter Brush";
+  font-size: 3rem;
+  text-align: center;
+  font-style: italic;
+}
+@media (max-width: 1000px) {
+  .header-title {
+    font-size: 2rem;
+  }
+}
+.header-title:hover {
+  text-decoration: underline;
+}
+.header img {
+  margin-left: 10%;
+  width: 10rem;
+  height: 11rem;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to right, whitesmoke 10%, #87CEEB 50%, whitesmoke 90%);
+}
+nav:hover {
+  background-image: linear-gradient(to right, #87CEEB 0%, whitesmoke 50%, #87CEEB 100%);
+}
+nav a {
+  text-decoration: none;
+  color: darkslategray;
+  font-size: 2rem;
+}
+
+.profile-fotos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+.profile-fotos img {
+  margin: 1%;
+  width: 31%;
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #87CEEB;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, whitesmoke 1%, #87CEEB 100%);
+  display: flex;
+  height: 10rem;
+  border-radius: 30% 30% 0 0;
+  border-top: 3px solid #87CEEB;
+}
+footer span {
+  color: darkslategray;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=estilo_fotos.css.map */
