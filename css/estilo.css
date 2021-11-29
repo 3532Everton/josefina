@@ -118,10 +118,8 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-.nomes .lista-nomes {
-  display: inline-block;
-}
-.nomes .lista-nomes li {
+
+.lista-nomes li {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,8 +127,9 @@ h2 {
   text-align: center;
 }
 @media (max-width: 1000px) {
-  .nomes .lista-nomes li {
-    margin: 10px;
+  .lista-nomes li {
+    display: block;
+    margin-bottom: 5px;
   }
 }
 
